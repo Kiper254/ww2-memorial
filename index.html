@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pamięć Ofiar II Wojny Światowej</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 30px 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .country-btn {
+            background: white;
+            border: 2px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .country-btn:hover {
+            background: #333;
+            color: white;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 30px;
+            background: #ddd;
+        }
+
+        .criminals-link {
+            display: inline-block;
+            padding: 15px 25px;
+            background: #b30000;
+            color: white;
+            font-size: 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .criminals-link:hover {
+            background: #7a0000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Pamięć Ofiar II Wojny Światowej
+</header>
+
+<div class="container">
+    <h2>Wybierz kraj, aby dowiedzieć się o ofiarach</h2>
+
+    <div class="countries-grid">
+
+        <button class="country-btn" onclick="location.href='countries/poland.html'">Polska</button>
+        <button class="country-btn" onclick="location.href='countries/germany.html'">Niemcy</button>
+        <button class="country-btn" onclick="location.href='countries/France.html'">Francja</button>
+        <button class="country-btn" onclick="location.href='countries/UK.html'">Wielka Brytania</button>
+        <button class="country-btn" onclick="location.href='countries/USSR.html'">ZSRR</button>
+        <button class="country-btn" onclick="location.href='countries/Ukraine.html'">Ukraina</button>
+        <button class="country-btn" onclick="location.href='countries/Belarus.html'">Białoruś</button>
+        <button class="country-btn" onclick="location.href='countries/Lithuania.html'">Litwa</button>
+        <button class="country-btn" onclick="location.href='countries/Latvia.html'">Łotwa</button>
+        <button class="country-btn" onclick="location.href='countries/Estonia.html'">Estonia</button>
+        <button class="country-btn" onclick="location.href='countries/Czechia.html'">Czechy</button>
+        <button class="country-btn" onclick="location.href='countries/Slovakia.html'">Słowacja</button>
+        <button class="country-btn" onclick="location.href='countries/Hungary.html'">Węgry</button>
+        <button class="country-btn" onclick="location.href='countries/Romania.html'">Rumunia</button>
+        <button class="country-btn" onclick="location.href='countries/Bulgaria.html'">Bułgaria</button>
+        <button class="country-btn" onclick="location.href='countries/Yugoslavia.html'">Jugosławia</button>
+        <button class="country-btn" onclick="location.href='countries/Greece.html'">Grecja</button>
+        <button class="country-btn" onclick="location.href='countries/Netherlands.html'">Holandia</button>
+        <button class="country-btn" onclick="location.href='countries/Belgium.html'">Belgia</button>
+        <button class="country-btn" onclick="location.href='countries/Norway.html'">Norwegia</button>
+        <button class="country-btn" onclick="location.href='countries/Denmark.html'">Dania</button>
+        <button class="country-btn" onclick="location.href='countries/Italy.html'">Włochy</button>
+        <button class="country-btn" onclick="location.href='countries/Spain.html'">Hiszpania (wolontariusze)</button>
+        <button class="country-btn" onclick="location.href='countries/Portugal.html'">Portugalia (wolontariusze)</button>
+
+        <button class="country-btn" onclick="location.href='countries/USA.html'">USA</button>
+        <button class="country-btn" onclick="location.href='countries/Canada.html'">Kanada</button>
+        <button class="country-btn" onclick="location.href='countries/Australia.html'">Australia</button>
+        <button class="country-btn" onclick="location.href='countries/NewZealand.html'">Nowa Zelandia</button>
+        <button class="country-btn" onclick="location.href='countries/China.html'">Chiny</button>
+        <button class="country-btn" onclick="location.href='countries/Japan.html'">Japonia</button>
+        <button class="country-btn" onclick="location.href='countries/Korea.html'">Korea</button>
+        <button class="country-btn" onclick="location.href='countries/Philippines.html'">Filipiny</button>
+        <button class="country-btn" onclick="location.href='countries/India.html'">Indie</button>
+        <button class="country-btn" onclick="location.href='countries/NorthAfrica.html'">Afryka Północna (kolonie)</button>
+
+
+    </div>
+</div>
+
+<footer>
+    <h3>Najwięksi zbrodniarze wojenni</h3>
+    <a class="criminals-link" href="warCriminals.html">Przejdź do listy</a>
+</footer>
+
+</body>
+</html>
